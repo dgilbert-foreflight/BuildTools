@@ -9,6 +9,10 @@ let package = Package(
             name: "SwiftLint",
             targets: ["SwiftLint"]
         ),
+        .plugin(
+            name: "SwiftLint-Fix",
+            targets: ["SwiftLintFix"]
+        ),
     ],
     targets: [
         .binaryTarget(
